@@ -1,6 +1,6 @@
 import pytest
 
-from rtk.main import to_hiraganas
+from rtk.main import to_hiragana
 
 
 @pytest.mark.parametrize(
@@ -21,4 +21,4 @@ from rtk.main import to_hiraganas
     ],
 )
 def test_to_hiragana(test_input: str, expected: str):
-    assert to_hiraganas(test_input) == expected
+    assert to_hiragana(test_input) == expected
