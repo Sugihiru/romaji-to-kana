@@ -1,4 +1,4 @@
-ROMANJI_TO_HIRAGANAS = {
+ROMAJI_TO_HIRAGANAS = {
     # Diagraph
     "kya": "きゃ",
     "kyu": "きゅ",
